@@ -1,25 +1,22 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-color: lightgray;
 }
 
 nav{
-    padding: 2.5%;
+    display: flex;
+    padding: 1% 2.5%;
     height: max-content;
     width: 100%;
     background-color: gray;
 }
 
-header{
-    max-height: 25%;
-    min-height: 300px;
-    width: 100%;
-    background-color: aqua;
-}
-
 main{
-    width: 70%;
+    margin: 1% 15%;
     height: 65%;
+    min-height: 200px;
+    min-width: 21cm;
     background-color: yellowgreen;
 }
 
@@ -29,3 +26,12 @@ footer{
     width: 100%;
     background-color: gray;
 }
+
+#vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }

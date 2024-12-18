@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    padding: 2.5%;
+    height: max-content;
+    width: 100%;
+    background-color: gray;
+}
+
+header{
+    max-height: 25%;
+    min-height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+
+main{
+    width: 70%;
+    height: 65%;
+    background-color: yellowgreen;
+}
+
+footer{
+    padding: 5%;
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+}

@@ -1,29 +1,16 @@
 *{
-    margin: 0px;
-    padding: 0px;
     background-color: lightgray;
 }
 
 nav{
-    display: flex;
-    padding: 1% 2.5%;
-    height: max-content;
-    width: 100%;
     background-color: gray;
 }
 
 main{
-    margin: 1% 15%;
-    height: 65%;
-    min-height: 200px;
-    min-width: 21cm;
     background-color: yellowgreen;
 }
 
 footer{
-    padding: 5%;
-    height: 100px;
-    width: 100%;
     background-color: gray;
 }
 

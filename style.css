@@ -6,29 +6,46 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav{
+    display: flex;
+    flex-direction: row;
     background-color: gray;
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    padding: 20px 100px;
 }
 
 main{
+    display: flex;
     background-color: yellowgreen;
+    flex-direction: row;
+    margin: 50px 20px;
+    padding: 10%;
+    max-width: 1920px;
 }
 
 footer{
+    display: flex;
     background-color: gray;
+    flex-direction: column;
+    padding: 7%;
 }
 
 #vl {
     border-left: 2px solid rgb(0, 0, 0);
-    height: 500px;
-    position: absolute;
+    position: sticky;
     left: 50%;
     margin-left: -3px;
     top: 0;
   }
+
+#rightOf {
+    position: relative;
+    left: 50%;
+}

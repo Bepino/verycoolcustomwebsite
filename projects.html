@@ -36,7 +36,12 @@
                 .then((data) =>
                     {
                         data.projects.forEach(element => {
-                            s += element.ime
+                            s += '<div class="project"><a href="'+ 
+                                element.link+ '"><div><img src="' + 
+                                element.img + '" alt="Illustration"></div><h3 class="manjiNaslov">' + 
+                                element.ime + '</h3><div class="opis">' +
+                                element.Opis + '</div><div>' +
+                                element.TimeOd + '</div></a></div>'
                         });
                         document.getElementById('ProjectList').innerHTML = s;
                     })

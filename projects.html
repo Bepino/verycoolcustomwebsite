@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bepino's Portfolio</title>
+        <title>Bepino's Projects</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta charset="UTF-8">
         <meta name="description" content="portfolio website">
@@ -21,8 +21,28 @@
                 <a href="about.html">About</a>
             </div>
         </nav>
-        <main class="">
-            
+        <main id="ProjectList">
+            <script>
+                var s = '';
+
+                fetch("./projList.json")
+                .then((res) => {
+                    if (!res.ok) {
+                        throw new Error
+                            (`HTTP error! Status: ${res.status}`);
+                    }
+                    return res.json();
+                })
+                .then((data) =>
+                    {
+                        data.projects.forEach(element => {
+                            s += element.ime
+                        });
+                        document.getElementById('ProjectList').innerHTML = s;
+                    })
+                .catch((error) =>
+                    console.error("Unable to fetch data:", error));
+            </script>
         </main>
         <footer>
             <span>Last updated :</span>

@@ -1,0 +1,18 @@
+{"projects":[
+    {
+        "ime" : "Projekt 1",
+        "status" : "Dovršen",
+        "DatumOd" : "1-1-2025",
+        "DatumDo" : "1-6-2025",
+        "Opis" : "Malo štorija oko projekta",
+        "img" : "images/proj1.jpg"
+    },
+    {
+        "ime" : "Projekt 2",
+        "status" : "U izradi",
+        "DatumOd" : "1-2-2025",
+        "DatumDo" : "1-7-2025",
+        "Opis" : "Malo štorija oko projekta",
+        "img" : "images/proj2.jpg"
+    }
+]}
